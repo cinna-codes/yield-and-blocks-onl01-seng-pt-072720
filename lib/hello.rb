@@ -27,19 +27,19 @@ end
 #   yield "tomatoes"
 #   yield "croutons"
 # end
-# 
+#
 # make_salad { |ingredient| puts ingredient }
-# 
+#
 # newarr = [1, 2, 3]
-# 
+#
 # test1 = []
-# 
+#
 # newarr.each do |num|
 #   test1 << num
 # end
-# 
+#
 # test1 << 4
-# 
+#
 # print test1
 
 
