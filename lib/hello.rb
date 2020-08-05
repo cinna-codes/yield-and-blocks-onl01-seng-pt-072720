@@ -15,15 +15,16 @@ end
 # call your method here!
 
 
-#hello_t(["Tim", "Tom", "Jim"]) do |name|
+hello_t(["Tim", "Tom", "Jim"]) do |name|
+binding.pry
+ if name.start_with?("T")
+   puts "Hi, #{name}"
+ end
+end
+
+#["Tim", "Tom", "Jim"].each do |name|
+#  binding.pry
 #  if name.start_with?("T")
 #    puts "Hi, #{name}"
 #  end
 #end
-
-["Tim", "Tom", "Jim"].each do |name|
-  binding.pry
-  if name.start_with?("T")
-    puts "Hi, #{name}"
-  end
-end
