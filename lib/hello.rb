@@ -15,12 +15,20 @@ end
 # call your method here!
 
 
-hello_t(["Tim", "Tom", "Jim"]) do |name|
-binding.pry
- if name.start_with?("T")
-   puts "Hi, #{name}"
- end
+# hello_t(["Tim", "Tom", "Jim"]) do |name|
+# binding.pry
+#  if name.start_with?("T")
+#    puts "Hi, #{name}"
+#  end
+# end
+
+def make_salad
+  yield "lettuce"
+  yield "tomatoes"
+  yield "croutons"
 end
+
+make_salad { |ingredient| puts ingredient }
 
 #["Tim", "Tom", "Jim"].each do |name|
 #  binding.pry
