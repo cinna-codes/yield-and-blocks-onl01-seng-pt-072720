@@ -30,6 +30,14 @@ end
 
 make_salad { |ingredient| puts ingredient }
 
+newarr = [1, 2, 3]
+
+newarr.each do |num|
+  puts num
+end
+
+newarr.each { |num| puts num+1 }
+
 #["Tim", "Tom", "Jim"].each do |name|
 #  binding.pry
 #  if name.start_with?("T")
