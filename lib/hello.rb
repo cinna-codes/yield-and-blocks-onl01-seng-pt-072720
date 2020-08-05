@@ -37,9 +37,9 @@ newarr.each do |num|
   test1 << num
 end
   test1
-end
 
-puts [test1]
+
+#puts [test1]
 
 # newarr.each { |num| puts num+1 }
 
