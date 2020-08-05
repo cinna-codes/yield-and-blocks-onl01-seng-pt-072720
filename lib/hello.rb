@@ -1,3 +1,5 @@
+require 'pry'
+
 def hello_t(array)
   if block_given?
   i = 0
@@ -18,3 +20,10 @@ end
 #    puts "Hi, #{name}"
 #  end
 #end
+
+["Tim", "Tom", "Jim"].each do |name|
+  binding.pry
+  if name.start_with?("T")
+    puts "Hi, #{name}"
+  end
+end
