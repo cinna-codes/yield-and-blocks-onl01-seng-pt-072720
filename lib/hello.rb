@@ -36,7 +36,7 @@ newarr.each do |num|
   puts num
 end
 
-newarr.each { |num| puts num+1 }
+# newarr.each { |num| puts num+1 }
 
 #["Tim", "Tom", "Jim"].each do |name|
 #  binding.pry
