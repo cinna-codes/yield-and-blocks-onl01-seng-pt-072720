@@ -32,8 +32,11 @@ make_salad { |ingredient| puts ingredient }
 
 newarr = [1, 2, 3]
 
-test1 = newarr.each do |num|
-  puts num
+newarr.each do |num|
+  test1 = []
+  test1 << num
+end
+  test1
 end
 
 puts [test1]
