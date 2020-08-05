@@ -22,25 +22,25 @@ end
 #  end
 # end
 
-def make_salad
-  yield "lettuce"
-  yield "tomatoes"
-  yield "croutons"
-end
-
-make_salad { |ingredient| puts ingredient }
-
-newarr = [1, 2, 3]
-
-test1 = []
-
-newarr.each do |num|
-  test1 << num
-end
-
-test1 << 4
-
-print test1
+# def make_salad
+#   yield "lettuce"
+#   yield "tomatoes"
+#   yield "croutons"
+# end
+# 
+# make_salad { |ingredient| puts ingredient }
+# 
+# newarr = [1, 2, 3]
+# 
+# test1 = []
+# 
+# newarr.each do |num|
+#   test1 << num
+# end
+# 
+# test1 << 4
+# 
+# print test1
 
 
 #puts [test1]
