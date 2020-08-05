@@ -40,7 +40,7 @@ end
 
 test1 << 4
 
-puts test1
+print test1
 
 
 #puts [test1]
